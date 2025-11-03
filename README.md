@@ -22,25 +22,6 @@ The game supports **3×3, 4×4, and 5×5** boards and includes timer, step count
 
 ---
 
-## 📂 Project Structure
-npuzzle/
-├─ src/
-│ ├─ app.py # Entry point
-│ ├─ ui_login.py # Login screen
-│ ├─ ui_home.py # Home screen (choose board size)
-│ ├─ ui_game.py # Game board (timer, steps, hints)
-│ ├─ ui_success.py # Success screen
-│ ├─ ui_leaderboard.py # Leaderboard (with admin tools)
-│ ├─ core_board.py # Board logic & tile movement
-│ ├─ core_scramble.py # Puzzle shuffling
-│ ├─ core_timer.py # Timer logic
-│ └─ io_leaderboard.py # Leaderboard data (JSON)
-├─ data/
-│ └─ leaderboard.json # Automatically created/updated
-└─ README.md
-
----
-
 ## 🚀 How to Run
 python src/app.py
 
